@@ -1,0 +1,47 @@
+<svg id="Logo_Symbol" data-name="Logo Symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="181" height="181" viewBox="0 0 181 181">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #646464;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #f2f2f2;
+      }
+
+      .cls-3 {
+        fill: #ed322d;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #a30000;
+      }
+
+      .cls-5 {
+        fill: #fd6840;
+      }
+
+      .cls-6 {
+        fill: #690000;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="90.5" cy="90.5" r="90"/>
+  <circle class="cls-2" cx="90.5" cy="90.5" r="86"/>
+  <path class="cls-3" d="M1027.39,4117.04c0,8.32,6.13,26.01,6.13,26.01a192.418,192.418,0,0,0-95.039,0s6.124-17.69,6.124-26.01-6.124-26.01-6.124-26.01a192.418,192.418,0,0,0,95.039,0S1027.39,4108.72,1027.39,4117.04Z" transform="translate(-894.5 -4033.5)"/>
+  <path class="cls-3" d="M986,4057.83l-48.589,83.86h97.179L986,4057.83" transform="translate(-894.5 -4033.5)"/>
+  <path id="Shape_3_copy" data-name="Shape 3 copy" class="cls-4" d="M986,4091.31l-48.589,83.86h97.179L986,4091.31" transform="translate(-894.5 -4033.5)"/>
+  <path class="cls-5" d="M984.92,4113.8a11.88,11.88,0,1,1-11.88,11.88A11.881,11.881,0,0,1,984.92,4113.8Z" transform="translate(-894.5 -4033.5)"/>
+  <circle id="Shape_4_copy" data-name="Shape 4 copy" class="cls-6" cx="90.422" cy="92.17" r="7.609"/>
+  <image id="Anveshan_Hindi_" data-name="Anveshan (Hindi)" x="45.5" y="112.5" width="86" height="29" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAdCAYAAAAwyZtYAAADxUlEQVRoge1aPVLbUBD+SFykswtmUkIqSnQDzAlQm8qmS4dzgpgTIE6AfII4XTrMCSLfwHSkit2lS0bDt5Nl9Z709DMJNvlmNNLordZ6n3a/t29h7+joCB1hACABMAGwDnQZA1jUsN8avOqQ1JygEc+DgkURYwCfa9i/SGJzko55nZ+TgsVTDJRNbp8WLLYcXRGbkzTj9ZJyUIY89YcANrQ52zVyX+/v7xduNsQcwB6AD4Ga+QDgK4D3AN4AiAC8o5+tR5fEgnr5s3DXjwceMS1ycu8BZN4ntgRdE9sEGckUcuNdILdXuPMHkVqtF4XRbiH6eqPO622WBUvskCv8yNzfcIFKjH4e8ijDWwDfS8YFKy6A8tsp32Uba9zMbhAyVTa5sCT5MtkpgE8OO431LtapFTi15Zak5BcAlwDOqXeCY5L5HxWwESuRZdMvr0uveL1RdloKEhXtp+rZUCkQaD8fHYuYHs/fpc8AWBk7LWlVflzjOW55dtXmkeJkZurwzGqsT89SRmqfR8QXWakJ6WfbLHbaT+bwpccTSlGsqgrBsIYf17i1LRtf2fHQndfa80XbYMAP1AZTRtOZg9h/ilBiNQmbliRP+YV/APgG4FfBoh4kRZPntEiGEptQAhDQYPFhwA+Sp+6Bz6gB8hS8ps9ns7D6NgiyOTjkywoR95zIsPBEdbSkppSTyK+qg0Mw5WJ1wU1FmR7+FfiIzaPypHD3keDbwt1qRNRBwaVjs9EGa9XfTTrQ7tboqm1YBR3hS0ZYF6Rqv3mk3jWstV1Z48rKYPgidsLUHnC11Vvcaw8p4xLt1DLRVKNdmJi0H1NeJgF9hoXKyqmjH9xKr33E6lV/TjIWXMCGZlsrGJYQa+3aNLVXipAz+luoMaltbb/DIlXb8QPV9FkzmPRcajeDQqUgU2XNcYOaUX+okSf1wChxabu10bglsWMePt8WK2q9oM93uzCkLpsEQh2N1c7r6s/c9Bwy+ovoa8KJVjV0QLtzc++ErcabgEjVmHI7uymMPOLOk52V0FIQVRT+h57rUMRKTiQ66pCgkZLgtER+lhWdOkHCDx+btWBewUcpeiRUyqsZ08kFnYJNVvSMX39eQsaM7xNCyIIfe2gyaMXfmAT6gdLmztAjSVL3SQTZf7qwze+mnX3ZEMSm1pQmRqGZEYDFc9gQWPQ4mYn6s8iIE5fuVay2s2gq5gbzXflrrA+yeKXsoYqI9ykNIweprQrnlwK9eIlmjRmluuy5I/llkZp2lJLaj21e14F+lzZ+fNDl2tN5A/gNBoPpwuWOpxEAAAAASUVORK5CYII="/>
+</svg>

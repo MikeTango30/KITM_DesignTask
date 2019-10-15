@@ -1,0 +1,27 @@
+<svg id="Symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="304" height="65.188" viewBox="0 0 304 65.188">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed322d;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #a30000;
+      }
+
+      .cls-3 {
+        fill: #690000;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M114,103.8c0,4.623,3.4,14.449,3.4,14.449a106.868,106.868,0,0,0-52.8,0S68,108.423,68,103.8s-3.4-14.45-3.4-14.45A107.973,107.973,0,0,0,91,92.663a107.968,107.968,0,0,0,26.4-3.312S114,99.176,114,103.8Z" transform="translate(-64 -70.906)"/>
+  <path class="cls-1" d="M91,70.908L64.006,117.492h53.988L91,70.908" transform="translate(-64 -70.906)"/>
+  <path id="Shape_3_copy" data-name="Shape 3 copy" class="cls-2" d="M91,89.507L64.006,136.092h53.988L91,89.507" transform="translate(-64 -70.906)"/>
+  <path class="cls-1" d="M90.4,102a6.6,6.6,0,1,1-6.6,6.6A6.6,6.6,0,0,1,90.4,102Z" transform="translate(-64 -70.906)"/>
+  <circle id="Shape_4_copy" data-name="Shape 4 copy" class="cls-3" cx="26.406" cy="37.688" r="4.219"/>
+  <image id="Anveshan_Hindi_" data-name="Anveshan (Hindi)" x="256" y="29.094" width="48" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAB7ElEQVRIicVW3U3DMBD+qPqIRDdoOgFlAjJCN2iYgDAB2YAwAWECukHbDdJ3HjJCKvFudOQzvTiO1aJEfNLJse/z/fgucWCMOVcSY0xpjJl5+KIrPOujyyUOJHjBKqDLPLpR5RLjs57grc4mkXj0o8mQhv8liaufLBqsAMQAlgAqADmAkroYbVxz9uWszwB8ADgCSADUGBk6AQn2FsAewD3XFkzGjB3IX6ETiBgseOJbAO88yZjjGsATgE/y3ArA4dkKbjnqyvTxDgBSzqUbXhhH4eNMleNKPZdoY6faqOTcDRp00sfbs8ViOu/j1R77VR9n0jm/xknO56yjbSOlsTeVRAjCeeTJDoKpMy9YfrDchdJFnd2nBB88VfNBOK+0uxkiA7cCNftLcMNq9CEhJ2VAoQSO6gAy2vVV7MDqWL+2zaoOsyeBlAbu1FpMKRyuDVhXJvJ8csG9c556xFHmLnIeSkX7z55OaMN3OVAKXkoR5xnnseLsuLahaGie2KiMH7Hj1/5z1YzB1Rv6/b2JrXH3Z6yiIJDAkvtq6mp1G7uOLT9jkHmAF5JWAhP1iVpzzLg2D5bu1EYJ22LB3g29nCXtF0Pd0vYdkCDkQpEApO/EuMzt51QgScm33OdY1uyLFuJpnMtzIXua9w/ANzgg+di62F+CAAAAAElFTkSuQmCC"/>
+</svg>

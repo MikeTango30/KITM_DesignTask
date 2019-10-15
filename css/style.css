@@ -1,3 +1,57 @@
+.container {
+  max-width: 960px; }
 
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Roboto", "Lato", "Source Sans Pro", sans-serif;
+  font-size: 1.25rem;
+  color: #a8a8a8; }
+
+.wrapper section:nth-child(2) {
+  color: #ffffff; }
+
+.wrapper section:nth-child(2) h1 span {
+  color: #ed322d; }
+
+article {
+  color: #5d5d5d; }
+  article h2 {
+    color: #383838; }
+    article h2 span {
+      color: #ed322d; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  line-height: 1.4em;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 4.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.8rem; }
+
+h4 {
+  font-size: 1.6rem; }
+
+h5 {
+  font-size: 1.4rem; }
+
+.wrapper {
+  background: no-repeat url("../assets/img/bg.png");
+  background-size: contain;
+  width: 100%;
+  height: 549px; }
+
+.logo {
+  background: no-repeat url("../assets/img/logo.png");
+  background-size: contain;
+  width: 152px;
+  height: 24.5px; }
 
 /*# sourceMappingURL=style.css.map */

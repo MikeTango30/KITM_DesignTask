@@ -1,0 +1,32 @@
+// Font sizes
+$font-family__body: 'Roboto', 'Lato', 'Source Sans Pro', sans-serif;
+
+$font-size__html: 62.5%;
+$font-size__body: 1.25rem;
+$font-size__h1:   4.5rem;
+$font-size__h2:   2rem;
+$font-size__h3:   1.8rem;
+$font-size__h4:   1.6rem;
+$font-size__h5:   1.4rem;
+$font-size__h6:   1.3rem;
+
+$font-size__small: 1.2rem;
+
+// Line heights
+$line-height__body:     1.2em;
+$line-height__headings: 1.4em;
+
+//Font weights
+$font-weight__section-paragraph:  100;
+$font-weight__paragraph:          300;
+$font-weight__button:             400;
+$font-weight__headings:           700;
+
+// Colors
+$color__text-body-light:        $color__grey-skull;
+$color__text-body-dark:         $color__black;
+$color__text-headings-white:    $color__white;
+$color__text-headings-bright:   $color__ember-glow;
+$color__text-headings-dark:     $color__black-coal;
+$color__text-muted:             $color__grey-skull;
+

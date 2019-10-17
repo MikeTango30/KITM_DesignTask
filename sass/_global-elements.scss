@@ -1,15 +1,33 @@
-@import "layout";
 @import "elements";
+@import "typography";
 
-header {
-    padding: 30px $size__gutter;
-    div:last-child {
-        align-items: flex-end;
-        text-align: right;
-        padding-right: 20vh;
-    }
-    img {
-        padding: $padding__small-items;
-        height: 1.1em;
-    }
+.pipe {
+    padding: $padding__small-items;
+    height: 1.1em;
+}
+
+.scroll-icon {
+    font-size: 2.5rem;
+    padding: $margin__medium-items;
+}
+
+h1 {
+    margin: $margin__headings;
+}
+
+.mt-8 {
+    margin-top: $margin__mt8;
+}
+
+.m-6 {
+    margin: $margin__p6 !important;
+}
+
+.hamburger {
+    padding: 2px;
+    border-radius: 2px;
+    height: 1.1em;
+        &:hover {
+            background-color: lighten($color__text-body-dark, .2%);
+        }
 }

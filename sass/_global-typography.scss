@@ -1,28 +1,39 @@
 @import "typography";
-@import "layout";
 
-html { font-size: $font-size__html; }
+html {
+  font-size: $font-size__html;
+}
 
 body {
   font-family: $font-family__body;
   font-size: $font-size__body;
+  font-weight: $font-weight__thin;
   color: $color__text-body-light;
 }
 
 .wrapper section:nth-child(2) {
   color: $color__text-headings-white;
-}
-.wrapper section:nth-child(2) h1 span {
-  color: $color__text-headings-bright;
+  p {
+    font-size: $font-size__small;
+    font-weight: $font-weight__light;
+    color: $color__text-body-light;
+    letter-spacing: $letter-spacing__more-space;
+  }
+  h1 {
+    span {
+      color: $color__text-headings-bright;
+    }
+  }
 }
 
 header {
+    font-weight: $font-weight__regular;
     text-transform: uppercase;
 }
 
 article {
   color: $color__text-body-dark;
-  h2 {
+  h1 {
     color: $color__text-headings-dark;
     span {
       color:  $color__text-headings-bright;
@@ -38,16 +49,9 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: $font-size__h1;
+  line-height: 1;
 }
-h2 {
-  font-size: $font-size__h2;
-}
-h3 {
-  font-size: $font-size__h3;
-}
-h4 {
-  font-size: $font-size__h4;
-}
-h5 {
-  font-size: $font-size__h5;
-}
+h2 {  font-size: $font-size__h2; }
+h3 {  font-size: $font-size__h3; }
+h4 {  font-size: $font-size__h4; }
+h5 {  font-size: $font-size__h5; }

@@ -1,4 +1,5 @@
 @import "typography";
+@import "layout";
 
 html { font-size: $font-size__html; }
 
@@ -13,6 +14,10 @@ body {
 }
 .wrapper section:nth-child(2) h1 span {
   color: $color__text-headings-bright;
+}
+
+header {
+    text-transform: uppercase;
 }
 
 article {

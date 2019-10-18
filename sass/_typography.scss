@@ -3,23 +3,24 @@
 // Font sizes
 $font-family__body: 'Roboto', 'Lato', 'Source Sans Pro', sans-serif;
 
-$font-size__html: 0.7rem;
+$font-size__html: .7rem;
 $font-size__body: 1rem;
-$font-size__h1:   3rem;
+$font-size__h1:   6rem;
 $font-size__h2:   2.5rem;
 $font-size__h3:   1.8rem;
 $font-size__h4:   1.6rem;
 $font-size__h5:   1.4rem;
 $font-size__h6:   1.3rem;
 
-$font-size__small: 0.8rem;
+$font-size__small: .8rem;
+$font-size__tiny: .7rem;
 
 // Line heights
 $line-height__body:     1.2em;
 $line-height__headings: 1.4em;
 
 // Letter spacing
-$letter-spacing__more-space:    1;
+$letter-spacing__more-space:    .3px;
 
 // Font weights
 $font-weight__thin:           100;

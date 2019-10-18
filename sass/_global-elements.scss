@@ -1,5 +1,6 @@
 @import "elements";
 @import "typography";
+@import "colors";
 
 .pipe {
     padding: $padding__small-items;
@@ -7,7 +8,7 @@
 }
 
 .scroll-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: $margin__medium-items;
 }
 
@@ -19,8 +20,8 @@ h1 {
     margin-top: $margin__mt8;
 }
 
-.m-6 {
-    margin: $margin__p6 !important;
+.p-6 {
+    padding: $padding__p6;
 }
 
 .hamburger {
@@ -30,4 +31,16 @@ h1 {
         &:hover {
             background-color: lighten($color__text-body-dark, .2%);
         }
+}
+
+.diagram article p:nth-child(3) {
+    border-bottom: 1px solid $color__grey-skull;
+}
+
+.diagram article p:last-child {
+   align-self: center;
+}
+
+.img-thumbnail {
+    border: none;
 }

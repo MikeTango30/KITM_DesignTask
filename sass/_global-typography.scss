@@ -11,7 +11,7 @@ body {
   color: $color__text-body-light;
 }
 
-.wrapper section:nth-child(2) {
+.slider div:nth-child(2) {
   color: $color__text-headings-white;
   p {
     font-size: $font-size__small;
@@ -36,8 +36,11 @@ article {
   h1 {
     color: $color__text-headings-dark;
     span {
-      color:  $color__text-headings-bright;
+      color: $color__text-headings-bright;
     }
+  }
+  p {
+      font-size: $font-size__small;
   }
 }
 

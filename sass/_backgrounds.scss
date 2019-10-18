@@ -1,6 +1,6 @@
 @import "colors";
 
-.wrapper {
+.slider {
   background: no-repeat url("../assets/img/bg.png");
   background-size: cover;
   width: 100%;
@@ -23,7 +23,7 @@
 }
 
 .diagram {
-  background: $color__whisper;
+  background: $color__light-whisper;
 }
 
 .services-and-terms div:nth-child(3) div:first-child {

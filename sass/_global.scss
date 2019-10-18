@@ -1,7 +1,28 @@
 header {
+  padding-top: 1rem;
   height: 15%;
 }
 
 .slider-content {
-  height: 85%
+  height: 85%;
+  section {
+    height: 100%;
+    .slider-heading {
+      margin-top: 4rem;
+    }
+  }
+}
+
+article {
+  padding: 1rem !important; //override bootstrap col padding
+  div div:nth-child(2) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  article {
+    padding: 4rem !important; //override bootstrap col padding
+  }
 }

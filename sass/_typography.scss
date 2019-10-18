@@ -5,12 +5,19 @@ $font-family__body: 'Roboto', 'Lato', 'Source Sans Pro', sans-serif;
 
 $font-size__html: .7rem;
 $font-size__body: 1rem;
-$font-size__h1:   2.5rem;
-$font-size__h2:   2rem;
-$font-size__h3:   1.8rem;
-$font-size__h4:   1.6rem;
-$font-size__h5:   1.4rem;
-$font-size__h6:   1.3rem;
+$font-size__h1:   1.7rem;
+$font-size__h2:   1.5rem;
+$font-size__h3:   1.4rem;
+$font-size__h4:   1.3rem;
+$font-size__h5:   1.2rem;
+$font-size__h6:   1.1rem;
+
+$font-size__md-h1:   2.5rem;
+$font-size__md-h2:   2rem;
+$font-size__md-h3:   1.8rem;
+$font-size__md-h4:   1.6rem;
+$font-size__md-h5:   1.4rem;
+$font-size__md-h6:   1.3rem;
 
 $font-size__small: .8rem;
 $font-size__tiny: .7rem;
@@ -33,6 +40,7 @@ $color__text-body-light:        $color__grey-skull;
 $color__text-body-dark:         $color__zambezi;
 $color__text-headings-white:    $color__white;
 $color__text-headings-bright:   $color__ember-glow;
-$color__text-headings-dark:     $color__black-coal;
+$color__text-headings-dark:     $color__zambezi;
+$color__text-headings-black:     $color__black-coal;
 $color__text-muted:             $color__grey-skull;
 

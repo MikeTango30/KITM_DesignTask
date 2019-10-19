@@ -11,6 +11,11 @@ h1 {
   color: $color__text-headings-black;
 }
 
+h6 {
+    font-weight: $font-weight__headings;
+    line-height: $line-height__headings;
+}
+
 h1 {  font-size: $font-size__h1; line-height: 1; }
 h2 {  font-size: $font-size__h2; }
 h3 {  font-size: $font-size__h3; }
@@ -41,7 +46,7 @@ header {
   text-transform: uppercase;
 }
 
-.slider-heading {
+.slider-heading, .services-and-terms {
   color: $color__text-headings-white;
   h1 {
     color: $color__text-headings-white;

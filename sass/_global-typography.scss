@@ -47,7 +47,7 @@ header {
 }
 
 .slider-heading, .services-and-terms {
-  color: $color__text-headings-white;
+  color: $color__text-body-light;
   h1 {
     color: $color__text-headings-white;
   }
@@ -67,5 +67,14 @@ article {
   color: $color__text-body-dark;
     span {
       color: $color__text-headings-bright;
+    }
+}
+
+footer {
+    h1 span {
+        color: $color__text-headings-white;
+    }
+    p {
+        color: $color__text-body-dark;
     }
 }

@@ -33,7 +33,7 @@
 .services-and-terms {
     background: no-repeat url("../assets/img/servicesBG.png");
     background-size: cover;
-    height: 500px;
+    height: 940px;
 }
 
 .boxes {
@@ -62,4 +62,17 @@
 
 .boxes div:nth-child(n+15):nth-child(even):nth-child(-n+21) {
     background-color: $color__eggplant;
+}
+
+footer section:first-child {
+    background: no-repeat url("../assets/img/triangleCropped.png");
+    background-size: 100%;
+}
+
+.form {
+    background-color: $color__white;
+    width: 70%;
+    max-width: 600px;
+    height: 60%;
+    max-height: 500px;
 }

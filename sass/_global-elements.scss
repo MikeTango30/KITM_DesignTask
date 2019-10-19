@@ -42,8 +42,13 @@
     border: none; //override bootstrap
 }
 
-.services-and-terms h1 {
-    margin-top: 4rem;
+.services-and-terms {
+    h1 {
+    margin-top: 7rem;
+    }
+    section div:last-child {
+        padding: $padding__paragraphs;
+    }
 }
 
 .arrow {
@@ -51,4 +56,40 @@
     margin: 32.5% 0;
     width: 35%;
     height: 35%;
+}
+
+.boxes div:nth-child(even):nth-child(-n+6),
+.boxes div:nth-child(n+8):nth-child(odd):nth-child(-n+13),
+.boxes div:nth-child(n+15):nth-child(even):nth-child(-n+20) {
+    padding: $padding__boxes;
+}
+
+.boxes div:nth-child(n):nth-child(-n+6),
+.boxes div:nth-child(n+8):nth-child(n):nth-child(-n+13),
+.boxes div:nth-child(n+15):nth-child(n):nth-child(-n+18) {
+    border-bottom: 1px solid $color__zambezi;
+}
+
+footer {
+    h1 {
+        margin-top: 2.3rem;
+    }
+    p {
+        padding: $padding__paragraphs;
+    }
+}
+
+.form-control {
+    border: none; //override Bootstrap
+    border-bottom: 1px solid $color__zambezi;
+}
+
+.btn {
+    border-radius: 0; //override Bootstrap
+}
+
+.form-btn {
+    margin: $margin__button;
+    color: $color__grey-hound;
+    background-color: $color__zambezi;
 }

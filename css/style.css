@@ -31,7 +31,7 @@
 .services-and-terms {
   background: no-repeat url("../assets/img/servicesBG.png");
   background-size: cover;
-  height: 500px;
+  height: 940px;
 }
 
 .boxes {
@@ -60,6 +60,19 @@
 
 .boxes div:nth-child(n+15):nth-child(even):nth-child(-n+21) {
   background-color: #300030;
+}
+
+footer section:first-child {
+  background: no-repeat url("../assets/img/triangleCropped.png");
+  background-size: 100%;
+}
+
+.form {
+  background-color: #ffffff;
+  width: 70%;
+  max-width: 600px;
+  height: 60%;
+  max-height: 500px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -138,7 +151,7 @@ header {
 }
 
 .slider-heading, .services-and-terms {
-  color: #ffffff;
+  color: #a8a8a8;
 }
 .slider-heading h1, .services-and-terms h1 {
   color: #ffffff;
@@ -159,6 +172,13 @@ article {
 }
 article span {
   color: #ed322d;
+}
+
+footer h1 span {
+  color: #ffffff;
+}
+footer p {
+  color: #5e5e5e;
 }
 
 .pipe {
@@ -201,11 +221,52 @@ article span {
   border: none;
 }
 
+.services-and-terms h1 {
+  margin-top: 7rem;
+}
+.services-and-terms section div:last-child {
+  padding: 0.5rem 0.5rem;
+}
+
 .arrow {
   opacity: 0.4;
-  padding-top: auto;
+  margin: 32.5% 0;
   width: 35%;
   height: 35%;
+}
+
+.boxes div:nth-child(even):nth-child(-n+6),
+.boxes div:nth-child(n+8):nth-child(odd):nth-child(-n+13),
+.boxes div:nth-child(n+15):nth-child(even):nth-child(-n+20) {
+  padding: 0.5rem 1rem;
+}
+
+.boxes div:nth-child(n):nth-child(-n+6),
+.boxes div:nth-child(n+8):nth-child(n):nth-child(-n+13),
+.boxes div:nth-child(n+15):nth-child(n):nth-child(-n+18) {
+  border-bottom: 1px solid #5e5e5e;
+}
+
+footer h1 {
+  margin-top: 2.3rem;
+}
+footer p {
+  padding: 0.5rem 0.5rem;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.form-btn {
+  margin: 2rem 2rem;
+  color: #d9d9d9;
+  background-color: #5e5e5e;
 }
 
 header {

@@ -38,13 +38,9 @@
    align-self: center;
 }
 
-.img-thumbnail {
-    border: none; //override bootstrap
-}
-
 .services-and-terms {
     h1 {
-    margin-top: 7rem;
+    margin-top: 2rem;
     }
     section div:last-child {
         padding: $padding__paragraphs;
@@ -79,6 +75,14 @@ footer {
     }
 }
 
+.footer-logo {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin-top: -4rem;
+}
+
 .form-control {
     border: none; //override Bootstrap
     border-bottom: 1px solid $color__zambezi;
@@ -90,6 +94,25 @@ footer {
 
 .form-btn {
     margin: $margin__button;
-    color: $color__grey-hound;
-    background-color: $color__zambezi;
+    color: $color__zambezi;
+    border: 1px solid $color__zambezi;
+}
+
+footer ul {
+    margin-top: 1rem; //override Bootstrap
+    padding: $padding__paragraphs;
+    li {
+        list-style: none;
+        line-height: 2rem;
+    }
+}
+
+footer section:last-child div:first-child div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 1rem;
+    border: 1px solid $color__zambezi;
 }

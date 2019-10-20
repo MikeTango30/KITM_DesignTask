@@ -74,7 +74,10 @@ footer {
     h1 span {
         color: $color__text-headings-white;
     }
-    p {
+    p, ul {
         color: $color__text-body-dark;
+      span {
+        color: $color__ember-glow;
+      }
     }
 }

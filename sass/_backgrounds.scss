@@ -3,7 +3,19 @@
 .slider {
     background: center no-repeat url("../assets/img/bg.png");
     background-size: cover;
-    height: 400px;
+    height: 450px;
+    @media (min-width: 576px) {
+        height: 500px;
+    }
+    @media (min-width: 768px) {
+        height: 600px;
+    }
+    @media (min-width: 992px) {
+        height: 700px;
+    }
+    @media (min-width: 1200px) {
+        height: 800px;
+    }
 }
 
 .logo {
@@ -40,6 +52,12 @@
 .services-and-terms {
     background: center no-repeat url("../assets/img/servicesBG.png");
     background-size: cover;
+    @media (min-width: 992px) {
+        height: 600px;
+    }
+    @media (min-width: 1200px) {
+        height: 700px;
+    }
 }
 
 .boxes {
@@ -73,8 +91,11 @@
 footer section:first-child {
     background: center no-repeat url("../assets/img/triangle.png");
     background-size: cover;
-    @media (min-width: 992px) {
-        height: 480px;
+    @media (min-width: 1200px) {
+        height: 600px;
+    }
+    @media (min-width: 1400px) {
+        height: 700px;
     }
 }
 

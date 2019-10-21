@@ -1,5 +1,15 @@
+.container-fluid {
+  max-width: 1400px;
+}
+
 .container {
-    max-width: 960px;
+    max-width: 720px;
+    @media  (min-width: 1400px){
+      max-width: 940px;
+      .form {
+        max-width: 720px;
+      }
+  }
 }
 
 header {
@@ -9,12 +19,15 @@ header {
 
 .slider-content {
   height: 85%;
-  section {
-    height: 100%;
-    .slider-heading {
-      margin-top: 4rem;
-    }
+  .slider-heading {
+    margin-top: 4rem;
   }
+  //section {
+  //  height: 100%;
+  //  .slider-heading {
+  //    margin-top: 4rem;
+  //  }
+  //}
 }
 
 article {

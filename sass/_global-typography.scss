@@ -3,12 +3,13 @@
 h1, h5, h6 {
   font-weight: $font-weight__headings;
   color: $color__text-headings-black;
-  line-height: 1;
+  line-height: $line-height__headings;
 }
 
 h1 {
   text-transform: uppercase ;
   font-size: $font-size__h1;
+  margin-bottom: 0; //override Bootstrap
   @media (min-width: 576px){
     font-size: $font-size__md-h1;
   }
@@ -64,19 +65,28 @@ body {
   color: $color__text-body-light;
 }
 
+p {
+  line-height: $line-height__body;
+  font-weight: $font-weight__light;
+  color: $color__text-body-light;
+  letter-spacing: $letter-spacing__more-space;
+}
+
+article {
+  color: $color__text-body-dark;
+  span {
+    color: $color__text-headings-bright;
+  }
+  p {
+    font-size: $font-size__body;
+  }
+}
+
 header {
   font-weight: $font-weight__regular;
   text-transform: uppercase;
-}
-
-.slider-content {
-  section {
-    div:first-child {
-      margin-top: 6rem;
-    }
-    div:nth-child(2) {
-      margin-top: 2rem;
-    }
+  .active>.nav-link {
+    background-color: $color__ember-glow;
   }
 }
 
@@ -94,23 +104,6 @@ header {
   }
 }
 
-p {
-  line-height: $line-height__body;
-  font-weight: $font-weight__light;
-  color: $color__text-body-light;
-  letter-spacing: $letter-spacing__more-space;
-}
-
-article {
-  color: $color__text-body-dark;
-    span {
-      color: $color__text-headings-bright;
-    }
-  p {
-    font-size: $font-size__body;
-  }
-}
-
 .bubble-graph-text {
   h5 {
     text-transform: uppercase;
@@ -121,18 +114,13 @@ article {
 }
 
 footer {
-  section:first-child {
-    .container {
-      height: 100%;
+  h1 span {
+      color: $color__text-headings-white;
+  }
+  p, ul {
+      color: $color__text-body-dark;
+    span {
+      color: $color__ember-glow;
     }
   }
-    h1 span {
-        color: $color__text-headings-white;
-    }
-    p, ul {
-        color: $color__text-body-dark;
-      span {
-        color: $color__ember-glow;
-      }
-    }
 }

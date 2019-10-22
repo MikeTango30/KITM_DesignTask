@@ -74,18 +74,30 @@
 
 .boxes div:nth-child(n+8):nth-child(even):nth-child(-n+13) {
     background-color: $color__merlot-light;
+    div {
+        background-color: $color__merlot-light;
+    }
 }
 
 .boxes div:nth-child(n+8):nth-child(odd):nth-child(-n+13) {
     background-color: $color__merlot;
+    div {
+        background-color: $color__merlot;
+    }
 }
 
 .boxes div:nth-child(n+15):nth-child(odd):nth-child(-n+21) {
     background-color: $color__eggplant-light;
+    div {
+        background-color: $color__eggplant-light;
+    }
 }
 
 .boxes div:nth-child(n+15):nth-child(even):nth-child(-n+21) {
     background-color: $color__eggplant;
+    div {
+        background-color: $color__eggplant;
+    }
 }
 
 footer section:first-child {

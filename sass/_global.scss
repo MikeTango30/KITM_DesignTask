@@ -1,7 +1,3 @@
-.container-fluid {
-  max-width: 1400px;
-}
-
 .container {
     max-width: 720px;
     @media  (min-width: 1400px){
@@ -22,12 +18,6 @@ header {
   .slider-heading {
     margin-top: 4rem;
   }
-  //section {
-  //  height: 100%;
-  //  .slider-heading {
-  //    margin-top: 4rem;
-  //  }
-  //}
 }
 
 article {

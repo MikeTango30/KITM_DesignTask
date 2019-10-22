@@ -203,7 +203,8 @@ footer p, footer ul {
   height: 45px; }
 
 .line {
-  width: 15px; }
+  width: 15px;
+  background-color: #383838; }
 
 .slider-content section:first-child {
   height: 100%; }

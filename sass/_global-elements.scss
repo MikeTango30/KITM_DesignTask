@@ -38,11 +38,23 @@
     }
 }
 
+//fadeInRight animation from Animate.css: https://github.com/daneden/animate.css/blob/master/source/fading_entrances/fadeInRight.css
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 //Override Bootstrap collapsing menu behaviour
 .navbar {
   flex-wrap: nowrap;
   .collapsing {
-    transition: height 0.35s ease;
+    animation: fadeInRight 0.35s ease-in;
   }
   .navbar-nav {
     -ms-flex-direction: row;

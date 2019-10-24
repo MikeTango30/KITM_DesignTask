@@ -38,6 +38,25 @@
     }
 }
 
+//Override Bootstrap collapsing menu behaviour
+.navbar {
+  flex-wrap: nowrap;
+  .collapsing {
+    transition: height 0.35s ease;
+  }
+  .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0 10rem;
+    .nav-item {
+      padding: 0 .5rem;
+      .nav-link {
+        padding: 0 .5rem;
+      }
+    }
+  }
+}
+
 .scroll {
   margin-top: auto;
   margin-bottom: 10rem;

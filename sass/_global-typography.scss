@@ -85,9 +85,6 @@ article {
 header {
   font-weight: $font-weight__regular;
   text-transform: uppercase;
-  .active>.nav-link {
-    background-color: $color__ember-glow;
-  }
 }
 
 .slider-content, .services-and-terms {

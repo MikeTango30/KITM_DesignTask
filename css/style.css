@@ -15,12 +15,6 @@
     .slider {
       height: 800px; } }
 
-.logo {
-  background: no-repeat url("../assets/img/logo.png");
-  background-size: contain;
-  width: 100%;
-  margin: .5rem 0 0 30px; }
-
 .graph {
   background: center no-repeat url("../assets/img/graphWithText.png");
   background-size: cover;
@@ -173,7 +167,8 @@ header {
 footer h1 span {
   color: #ffffff; }
 footer p, footer ul {
-  color: #5e5e5e; }
+  color: #5e5e5e;
+  font-weight: 400; }
   footer p span, footer ul span {
     color: #ed322d; }
 
@@ -196,6 +191,13 @@ footer p, footer ul {
 .line {
   width: 15px;
   background-color: #383838; }
+
+.logo {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center; }
+  .logo img {
+    max-width: 100%; }
 
 .scroll {
   margin-top: auto;
@@ -240,8 +242,20 @@ footer p, footer ul {
     max-height: 50%; }
 
 header {
-  padding-top: 1rem;
+  padding: 1rem .5rem;
   height: 15%; }
+  @media (min-width: 576px) {
+    header {
+      padding: 1rem .5rem; } }
+  @media (min-width: 768px) {
+    header {
+      padding: 1.5rem .5rem; } }
+  @media (min-width: 992px) {
+    header {
+      padding: 2rem 1rem; } }
+  @media (min-width: 1200px) {
+    header {
+      padding: 3rem 2rem; } }
 
 .slider-content {
   height: 85%; }

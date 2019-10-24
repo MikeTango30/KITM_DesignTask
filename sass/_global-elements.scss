@@ -29,6 +29,15 @@
   background-color: $color__black-coal;
 }
 
+.logo {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+    img {
+      max-width: 100%;
+    }
+}
+
 .scroll {
   margin-top: auto;
   margin-bottom: 10rem;
@@ -83,7 +92,19 @@
 
 //Content
 header {
-  padding-top: 1rem;
+  padding: 1rem .5rem;
+  @media (min-width: 576px) {
+    padding: 1rem .5rem;
+  }
+  @media (min-width: 768px) {
+    padding: 1.5rem .5rem;
+  }
+  @media (min-width: 992px) {
+    padding: 2rem 1rem;
+  }
+  @media (min-width: 1200px) {
+    padding: 3rem 2rem;
+  }
   height: 15%;
 }
 

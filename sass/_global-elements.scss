@@ -30,9 +30,7 @@
 }
 
 .logo {
-  margin-left: 1rem;
-  display: flex;
-  align-items: center;
+  margin: 1rem 0 0 1rem;
     img {
       max-width: 100%;
     }
@@ -50,20 +48,36 @@
   }
 }
 
-//Override Bootstrap collapsing menu behaviour
-.navbar {
-  flex-wrap: nowrap;
-  .collapsing {
-    animation: fadeInRight 0.35s ease-in;
+@media (max-width: 767.98px) {
+  .navbar-collapse {
+    order: 3;
   }
-  .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row;
-    padding: 0 10rem;
-    .nav-item {
-      padding: 0 .5rem;
-      .nav-link {
+  .nav-link {
+    text-align: right;
+  }
+}
+
+//Override Bootstrap collapsing menu behaviour
+@media (min-width: 768px) {
+  .navbar {
+    flex-wrap: nowrap;
+    .collapsing {
+      animation: fadeInRight 0.35s ease-in;
+    }
+    .navbar-nav {
+      -ms-flex-direction: row;
+      flex-direction: row;
+      @media (min-width: 992px) {
+        padding: 0 5rem;
+      }
+      @media (min-width: 1200px) {
+        padding: 0 10rem;
+      }
+      .nav-item {
         padding: 0 .5rem;
+        .nav-link {
+          padding: 0 .5rem;
+        }
       }
     }
   }
